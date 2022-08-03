@@ -43,3 +43,7 @@ Given the confirmation, the property manager will adjust the reservation status 
 Each reservation must be managed by the property manager. Upon the completion of a short stay, the property manager will adjust the reservation status to indicate that the customers and their guests have checked out. Customers will be able to rate their stay at the property (with a unique rating id) by grading their experience on a scale from 1 to 5. 
 
 Average feedback received from the customers for a property is to be considered the property’s overall rating, and it can be viewed by future customers to assist with their booking decisions. The OPBS mustn’t have any overlap between reservations in the same property. This issue is mitigated by enforcing the constraint that each combination of property ID and reservation date are to be unique. This is handled by enforcing a uniqueness constraint at the application level that ensures no two separate reservations can share the same Property ID with overlapping dates. In other words, this will prevent double bookings of any new booking for a particular Property ID which clashes with an existing booking for the same Property ID within its date range. 
+
+
+
+![image](https://user-images.githubusercontent.com/31934083/182587482-3d6a909a-076b-417c-8d76-6f5349be5910.png)
