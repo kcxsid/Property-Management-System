@@ -1,0 +1,143 @@
+*{
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	color: white !important; 
+	text-decoration: none;
+}
+ a{
+ 	color: white;
+ 	text-decoration: none;
+ }
+
+
+header{
+
+	width: 100%; 
+	height: 100vh; 
+	background-color: #1a52f9; 
+	background-image: linear-gradient(19deg, #1a52f9 0%, #B721FF 84%);
+	position: relative; 
+}
+
+
+header:before{
+
+		content: ""; 
+		width: 650px; 
+		height: 550px; 
+		position: absolute;
+		left: 0; 
+		bottom: 0;
+		/*background-image: url(pictures/penthouse3.jpg);
+		background-size: 100% 100%*/
+
+
+}
+
+nav{
+	width: 100%; 
+	height: 15vh; 
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+}
+
+.logo a{
+	 
+	font-size: 1.6rem; 
+	text-transform: uppercase; 
+	font-weight: bold;
+}
+
+.menu ul li{
+	color: white; 
+	text-decoration: none; 
+	list-style: none; 
+	display: inline-block;
+	padding: 0 15px; 
+
+}
+
+.menu ul li a{
+	
+	text-transform: capitalize;
+} 
+
+ ul li:hover{
+
+	border-top: 2px solid #5dade2;
+	border-bottom : 2px solid #5dade2; 
+
+}
+
+
+
+.contact_btn a{
+
+	color: white !important;
+	text-decoration-color: white !important;
+	text-decoration: none; 
+	background-color: #d456ef;
+	padding: 12px 25px; 
+	font-size: 15px; 
+	font-weight: 500; 
+	border: 1px solid transparent;
+	color: white;
+	text-transform: uppercase;
+}
+
+.contact_btn a:hover{
+
+	background: linear-gradient(to right, #615cfd 0%, #d456ef 100%);
+
+}
+
+
+/*center-content*/
+
+.center_content{
+
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+text-align: center;	
+}
+
+.center_content h1{
+
+	color: #fff; 
+	font-size: 70px; 
+	text-transform: capitalize; 
+	font-weight: 700; 
+	margin-bottom: 10px; 
+	z-index: 1; 
+
+}
+
+
+.center_content h2{
+
+	font-size: 25px; 
+	color: #fff;
+	font-weight: 400;
+	text-transform: capitalize;
+	z-index: 1; 
+
+}
+
+.center_content h2:before{
+
+	content: ""; 
+	width: 80px; 
+	height: auto;
+	border: 2px solid white;
+	position: absolute;
+	left: 40px; 
+	bottom: 0; 
+	margin-bottom: 15px; 
+
+}
