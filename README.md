@@ -47,3 +47,17 @@ Average feedback received from the customers for a property is to be considered 
 
 
 ![image](https://user-images.githubusercontent.com/31934083/182587482-3d6a909a-076b-417c-8d76-6f5349be5910.png)
+
+
+### Platform 
+
+<img width="1224" alt="image" src="https://user-images.githubusercontent.com/31934083/183371739-a4beb417-38a6-483c-9162-f54a3e6982e7.png">
+
+Registration page for new customers. 
+
+
+<img width="1224" alt="image" src="https://user-images.githubusercontent.com/31934083/183371863-6ad28720-02cf-4948-a783-e9accf93c9df.png">
+
+Login Page for customers
+
+![image](https://user-images.githubusercontent.com/31934083/182587482-3d6a909a-076b-417c-8d76-6f5349be5910.png)
