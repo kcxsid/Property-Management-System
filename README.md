@@ -60,4 +60,7 @@ Registration page for new customers.
 
 Login Page for customers
 
-![image](https://user-images.githubusercontent.com/31934083/182587482-3d6a909a-076b-417c-8d76-6f5349be5910.png)
+
+<img width="1305" alt="Screen Shot 2022-08-08 at 6 16 34 pm" src="https://user-images.githubusercontent.com/31934083/183372208-3a1951a1-2de7-4fb0-ba67-4bb116404a3b.png">
+
+Logged in page for Customers, where they have access to book a property, view images of existing properties, and contact information of the company. 
